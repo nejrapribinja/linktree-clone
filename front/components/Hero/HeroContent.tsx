@@ -4,7 +4,7 @@ const CustomButton = dynamic(() => import("../CustomButton")); */
 
 const HeroContent = () => {
   return (
-    <div className="absolute h-screen w-full flex justify-start items-center bg-black bg-opacity-50 md:px-8 px-4">
+    <div className="absolute h-screen w-full flex justify-start items-center md:px-8 px-4">
       {/* <div className="xl:ml-[136.6px] text-white w-[648px] min-h-[60%]">
         <p
           className="md:text-[55px] text-[32px] font-semibold md:mb-8 mb-[10px]"

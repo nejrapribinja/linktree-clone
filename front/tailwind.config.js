@@ -11,7 +11,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        herobg: "#256D1A",
+        herobg: "#254f1a",
+        herobtn: "#eff0ec",
       },
     },
   },

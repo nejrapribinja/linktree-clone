@@ -11,16 +11,19 @@ export const NAV_LINKS = [
       title: "Discover",
       path: "#discover",
       subLinks: [{        
-        title: "Home",
-        path: "#home",
+        title: "Linktree for instagram",
+        path: "#linktreeforinstagram",
       },
       {
-        title: "About",
-        path: "#about",
+        title: "Linktree for TikTok",
+        path: "#linktreefortiktok",
       },
       {
-        title: "Services",
-        path: "#services",
+        title: "Linktree for Twitter",
+        path: "#linktreefortwitter",
+      },{
+        title: "Linktree for Linkedin",
+        path: "#linktreeforlinkedin",
       },]
     },
     {
@@ -31,19 +34,40 @@ export const NAV_LINKS = [
         title: "Learn",
         path: "#learn",
         subLinks: [{        
-            title: "Home",
-            path: "#home",
+            title: "The 2023 Creator Report",
+            path: "#creatorreport",
           },
           {
-            title: "About",
-            path: "#about",
+            title: "All Articles",
+            path: "#allarticles",
           },
           {
-            title: "Services",
-            path: "#services",
+            title: "Creators",
+            path: "#creators",
+          },
+          {
+            title: "Trends",
+            path: "#trends",
+          },
+          {
+            title: "Best Practices",
+            path: "#bestpractices",
+          },
+          {
+            title: "Company",
+            path: "#company",
+          },
+          {
+            title: "Product News",
+            path: "#productnews",
+          },
+          {
+            title: "Help",
+            path: "#help",
           },]
       },
 ];
 
 
-export const BUTTON_TITLE = "Sing in"
+export const BUTTON_TITLE_NAV1 = "Log in"
+export const BUTTON_TITLE_NAV2 = "Sing up free"

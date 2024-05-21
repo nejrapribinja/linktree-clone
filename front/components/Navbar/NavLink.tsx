@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import { IoChevronDown } from "react-icons/io5";
 
 interface NavLinkProps {
   href: string;
@@ -19,24 +18,17 @@ const NavLink: React.FC<NavLinkProps> = ({ href, title, subLinks }) => {
       {/* Links */}
       <a
         href={href}
-        className="flex items-center text-textColor lg:text-lg text-xl hover:text-primary transition ease-in-out duration-[350ms] ">
+        className="flex items-center font-medium text-[15px] hover:text-primary transition ease-in-out duration-[350ms] ">
         {title}
-        {subLinks && (
-          <IoChevronDown
-            className={`w-4 h-4 ml-2 transform transition-transform duration-300 ${
-              isHovered ? "-rotate-180" : ""
-            }`}
-          />
-        )}
       </a>
       {/* Sublinks */}
       {isHovered && subLinks && (
-        <ul className="lg:absolute block z-10 top-full left-0 bg-white lg:p-6 pt-6">
+        <ul className="lg:absolute inline-block w-[250px] z-10 rounded-md top-16 left-0 bg-white lg:px-6 py-4">
           {subLinks.map((subLink: any, index: number) => (
-            <li key={index}>
+            <li key={index} className="py-2">
               <a
                 href={subLink.path}
-                className="block text-textColor text-lg hover:text-primary transition ease-in-out duration-[350ms] ">
+                className="block text-textColor text-[15px] hover:text-primary transition ease-in-out duration-[350ms]">
                 {subLink.title}
               </a>
             </li>
