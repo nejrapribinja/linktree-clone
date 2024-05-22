@@ -12,7 +12,9 @@ module.exports = {
     extend: {
       colors: {
         herobg: "#254f1a",
-        herobtn: "#eff0ec",
+        navbtn: "#eff0ec",
+        herotext: "#d2e823",
+        herobtn: "#e9c0e9",
       },
     },
   },

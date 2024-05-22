@@ -71,3 +71,8 @@ export const NAV_LINKS = [
 
 export const BUTTON_TITLE_NAV1 = "Log in"
 export const BUTTON_TITLE_NAV2 = "Sing up free"
+
+// HERO
+export const HERO_TEXT = "Everything you are. In one, simple link in bio."
+export const HERO_DESC = "Join 40M+ people using Linktree for their link in bio. One link to help you share everything you create, curate and sell from your Instagram, TikTok, Twitter, YouTube and other social media profiles."
+export const HERO_BTN = "Claim your Linktree"
