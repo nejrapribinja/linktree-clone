@@ -49,7 +49,7 @@ const Navbar = () => {
         </div>
 
         <div className="flex gap-5">
-          <div className="menu hidden md:inline text-right" id="navbar">
+          <div className="menu md:inline text-right" id="navbar">
             <CustomButton
               text={BUTTON_TITLE_NAV1}
               className="transform scale-100 hover:scale-95 transition-transform duration-[350ms] bg-navbtn text-black py-[18px] px-[30px] rounded-lg"

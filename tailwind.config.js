@@ -15,6 +15,7 @@ module.exports = {
         navbtn: "#eff0ec",
         herotext: "#d2e823",
         herobtn: "#e9c0e9",
+        mobileMenu: "#43e660",
       },
     },
   },

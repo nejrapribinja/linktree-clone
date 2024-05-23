@@ -1,5 +1,5 @@
 import dynamic from "next/dynamic";
-import { BUTTON_TITLE } from "@/utils/content";
+import { BUTTON_TITLE_NAV1, BUTTON_TITLE_NAV2 } from "@/utils/content";
 const NavLink = dynamic(() => import("./NavLink"));
 const CustomButton = dynamic(() => import("../CustomButton"));
 
@@ -15,18 +15,12 @@ interface MenuOverlayProps {
 
 const MenuOverlay: React.FC<MenuOverlayProps> = ({ links }) => {
   return (
-    <ul className="flex flex-col py-4 px-6 items-stretch z-20 absolute bg-white w-full">
+    <ul className="flex flex-col py-4 px-6 items-stretch fixed top-[var(--navbar-height)] bg-mobileMenu w-screen h-[calc(100vh-var(--navbar-height))] z-10">
       {links.map((link, index: number) => (
         <li key={index} className="py-[15px]">
           <NavLink href={link.path} title={link.title} subLinks={link.subLinks} />
         </li>
       ))}
-      <li>
-        <CustomButton
-          text={BUTTON_TITLE}
-          className="w-full transform scale-100 hover:scale-95 transition-transform duration-[350ms] mt-[60px] bg-primary py-[18px] px-[30px] text-base text-white"
-        />
-      </li>
     </ul>
   );
 };
