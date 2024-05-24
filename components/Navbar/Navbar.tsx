@@ -28,8 +28,8 @@ const Navbar = () => {
 
   return (
     /* Navbar */
-    <nav className="bg-white fixed top-0 left-1/2 transform -translate-x-1/2 z-10 mx-auto max-w-[90%] w-full rounded-full mt-10 px-6">
-      <div className="flex flex-wrap items-center justify-between py-4 px-4">
+    <nav className="fixed top-4 left-0 right-0 z-20 mx-auto w-full max-w-7xl rounded-full px-6 bg-white">
+      <div className="flex flex-wrap items-center justify-between py-4 px-4 bg-white rounded-full">
         <div className="flex items-center space-x-6">
           {/* Logo */}
           <Link href={"/"} className="flex items-center">

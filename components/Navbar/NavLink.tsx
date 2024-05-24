@@ -23,7 +23,7 @@ const NavLink: React.FC<NavLinkProps> = ({ href, title, subLinks }) => {
       </a>
       {/* Sublinks */}
       {isHovered && subLinks && (
-        <ul className="lg:absolute inline-block w-[250px] z-10 rounded-md top-16 left-0 bg-white lg:px-6 py-4">
+        <ul className="lg:absolute inline-block w-[250px]  rounded-md top-16 left-0 bg-white lg:px-6 py-4">
           {subLinks.map((subLink: any, index: number) => (
             <li key={index} className="py-2">
               <a
