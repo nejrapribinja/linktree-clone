@@ -31,3 +31,16 @@ body {
     text-wrap: balance;
   }
 }
+
+.image-container {
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  transition: transform 0.1s ease-out;
+  --rotateX: 0;
+  --rotateY: 0;
+  --scale: 1;
+}
+
+.image-container:hover {
+  transform: rotateX(var(--rotateX)) rotateY(var(--rotateY)) scale(var(--scale));
+}

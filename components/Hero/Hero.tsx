@@ -4,7 +4,7 @@ const HeroContent = dynamic(() => import("./HeroContent"));
 
 const Hero = () => {
   return (
-    <div className="min-h-screen  bg-herobg" id="home">
+    <div className="h-[900px] bg-herobg" id="home">
       <HeroContent />
     </div>
   );
