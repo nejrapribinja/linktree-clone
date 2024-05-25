@@ -79,3 +79,8 @@ export const HERO_BTN = "Claim your Linktree"
 export const hero_bg = "/images/bg.webp"
 export const hero_widget = "/images/widget.png"
 export const hero_item = "/images/item.png"
+
+// CREATE AND CUSTOMIZE
+export const CREATE_TEXT = "Create and customize your Linktree in minutes"
+export const CREATE_DESC = "Connect your TikTok, Instagram, Twitter, website, store, videos, music, podcast, events and more. It all comes together in a link in bio landing page designed to convert."
+export const CREATE_BTN = "Get started for free"

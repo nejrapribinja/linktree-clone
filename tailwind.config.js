@@ -16,6 +16,8 @@ module.exports = {
         herotext: "#d2e823",
         herobtn: "#e9c0e9",
         mobileMenu: "#43e660",
+        createbg: "#e9c0e9",
+        createtext: "#502274",
       },
     },
   },
