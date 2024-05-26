@@ -5,9 +5,17 @@ interface NavLinkProps {
   href: string;
   title: string;
   subLinks?: any;
+  classNameLink?: any;
+  classNameSublink?: any;
 }
 
-const NavLink: React.FC<NavLinkProps> = ({ href, title, subLinks }) => {
+const NavLink: React.FC<NavLinkProps> = ({
+  href,
+  title,
+  subLinks,
+  classNameLink,
+  classNameSublink,
+}) => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
@@ -18,17 +26,20 @@ const NavLink: React.FC<NavLinkProps> = ({ href, title, subLinks }) => {
       {/* Links */}
       <a
         href={href}
-        className="flex items-center font-medium text-[15px] hover:text-primary transition ease-in-out duration-[350ms] ">
+        className={`flex items-center font-medium text-[15px] hover:text-primary transition ease-in-out duration-[350ms] ${classNameLink}`}>
         {title}
       </a>
       {/* Sublinks */}
       {isHovered && subLinks && (
-        <ul className="lg:absolute inline-block w-[250px]  rounded-md top-16 left-0 bg-white lg:px-6 py-4">
+        <ul
+          className={`lg:absolute inline-block w-[250px] rounded-md top-16 left-0 lg:px-6 py-4 ${
+            classNameSublink ? "bg-mobileMenu" : "bg-white"
+          }`}>
           {subLinks.map((subLink: any, index: number) => (
             <li key={index} className="py-2">
               <a
                 href={subLink.path}
-                className="block text-textColor text-[15px] hover:text-primary transition ease-in-out duration-[350ms]">
+                className={`block text-textColor text-[15px] hover:text-primary transition ease-in-out duration-[350ms] ${classNameSublink}`}>
                 {subLink.title}
               </a>
             </li>

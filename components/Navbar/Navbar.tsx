@@ -41,7 +41,7 @@ const Navbar = () => {
               height={31}
               className="transform scale-100 hover:scale-95 transition-transform duration-[350ms]"
             /> */}
-            <p className="text-[28px] font-semibold">Linktree</p>
+            <p className="text-[28px] font-semibold md:inline-block hidden">Linktree</p>
             <SiLinktree className={`w-5 h-5 ml-1 transform transition-transform duration-300`} />
           </Link>
           {/* Navlink List */}

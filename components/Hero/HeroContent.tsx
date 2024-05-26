@@ -5,9 +5,9 @@ const CustomButton = dynamic(() => import("../CustomButton"));
 
 const HeroContent = () => {
   return (
-    <div className="absolute lg:min-h-screen w-full flex flex-col lg:flex-row md:px-8 px-4 bg-herobg">
+    <div className="absolute w-full flex flex-col lg:flex-row md:px-8 px-4 bg-herobg">
       <div className="flex-1 flex justify-start items-center">
-        <div className="xl:ml-[136.6px] text-white w-[648px] min-h-[40%]">
+        <div className="xl:ml-[136.6px] text-white w-[648px] ">
           <p className="md:text-[55px] text-herotext tracking-[-0.02em] leading-tight text-[32px] font-[820] md:mb-8 mb-[10px] pt-20">
             {HERO_TEXT}
           </p>
