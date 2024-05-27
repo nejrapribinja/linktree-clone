@@ -1,6 +1,5 @@
 "use client";
 import { hero_bg, hero_widget, hero_item } from "@/utils/content";
-import dynamic from "next/dynamic";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 

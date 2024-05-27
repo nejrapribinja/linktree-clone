@@ -84,3 +84,10 @@ export const hero_item = "/images/item.png"
 export const CREATE_TEXT = "Create and customize your Linktree in minutes"
 export const CREATE_DESC = "Connect your TikTok, Instagram, Twitter, website, store, videos, music, podcast, events and more. It all comes together in a link in bio landing page designed to convert."
 export const CREATE_BTN = "Get started for free"
+
+
+//SHARE SECTION
+export const SHARE_TEXT = "Share your Linktree from your Instagram, TikTok, Twitter and other bios"
+export const SHARE_DESC = "Add your unique Linktree URL to all the platforms and places you find your audience. Then use your QR code to drive your offline traffic online."
+export const SHARE_BTN = "Get started for free"
+export const SHARE_SOCIAL_1 = "/images/shareSection/social-1.svg"
