@@ -3,7 +3,7 @@ const HeroContent = dynamic(() => import("./HeroContent"));
 
 const Hero = () => {
   return (
-    <div className="h-[800px] bg-herobg flex justify-center items-center" id="home">
+    <div className="lg:h-[100vh] bg-herobg flex justify-center items-center" id="home">
       <HeroContent />
     </div>
   );

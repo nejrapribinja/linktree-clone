@@ -3,7 +3,7 @@ const CreateAndCustomizeContent = dynamic(() => import("./CreateAndCustomizeCont
 
 const CreateAndCustomize = () => {
   return (
-    <div className="h-[100vh] bg-createbg" id="home">
+    <div className=" bg-createbg" id="home">
       <CreateAndCustomizeContent />
     </div>
   );

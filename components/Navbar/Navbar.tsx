@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { NAV_LINKS, BUTTON_TITLE_NAV1, BUTTON_TITLE_NAV2 } from "@/utils/content";
-import Image from "next/image";
 import dynamic from "next/dynamic";
 import { SiLinktree } from "react-icons/si";
 
@@ -28,9 +27,9 @@ const Navbar = () => {
 
   return (
     /* Navbar */
-    <nav className="fixed top-4 left-0 right-0 z-20 mx-auto w-full max-w-7xl rounded-full px-6 bg-white">
-      <div className="flex flex-wrap items-center justify-between py-4 px-4 bg-white rounded-full">
-        <div className="flex items-center space-x-6">
+    <nav className="fixed top-4 sm:left-10 sm:right-10 left-1 right-1 z-20 mx-auto rounded-full fluid md:px-6 bg-white">
+      <div className="flex flex-wrap items-center justify-between py-4 sm:px-4 px-2 bg-white rounded-full">
+        <div className="flex items-center justify-center space-x-6">
           {/* Logo */}
           <Link href={"/"} className="flex items-center">
             {/* <Image

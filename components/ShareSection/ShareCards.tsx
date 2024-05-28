@@ -10,12 +10,41 @@ import Image from "next/image";
 
 const ShareCards = () => {
   return (
-    <div className="flex justify-center items-center pt-20 image-container">
-      <Image src={SHARE_SOCIAL_0} alt="bg" width={105} height={311} className="z-10" />
-      <Image src={SHARE_SOCIAL_1} alt="widget" width={105} height={311} className="z-9 " />
-      <Image src={SHARE_SOCIAL_2} alt="widget" width={105} height={311} className="z-8 " />
-      <Image src={SHARE_SOCIAL_3} alt="widget" width={105} height={311} className="z-7 " />
-      <Image src={SHARE_SOCIAL_5} alt="widget" width={105} height={311} className="z-6 " />
+    <div className="flex-1 flex justify-center items-center pt-10">
+      <div className="flex justify-center items-center " style={{ transform: "rotate(-10deg)" }}>
+        <Image
+          src={SHARE_SOCIAL_0}
+          alt="bg"
+          width={85}
+          height={311}
+          className="z-10"
+          style={{ transform: "rotate(10deg)" }}
+        />
+        <Image
+          src={SHARE_SOCIAL_1}
+          alt="widget"
+          width={85}
+          height={311}
+          className="z-9 "
+          style={{ transform: "rotate(10deg)" }}
+        />
+        <Image
+          src={SHARE_SOCIAL_2}
+          alt="widget"
+          width={85}
+          height={311}
+          className="z-8 "
+          style={{ transform: "rotate(10deg)" }}
+        />
+        <Image
+          src={SHARE_SOCIAL_3}
+          alt="widget"
+          width={85}
+          height={311}
+          className="z-7 "
+          style={{ transform: "rotate(10deg)" }}
+        />
+      </div>
     </div>
   );
 };
