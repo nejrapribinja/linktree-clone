@@ -96,3 +96,8 @@ export const SHARE_SOCIAL_2 = "/images/shareSection/social-2.svg"
 export const SHARE_SOCIAL_3 = "/images/shareSection/social-3.svg"
 export const SHARE_SOCIAL_4 = "/images/shareSection/social-4.svg"
 export const SHARE_SOCIAL_5 = "/images/shareSection/social-5.svg"
+
+//ANALYZE SECTION
+export const ANALYZE_TEXT = "Analyze your audience and keep your followers engaged"
+export const ANALYZE_DESC = "Track your engagement over time, monitor revenue and learn what’s converting your audience. Make informed updates on the fly to keep them coming back."
+export const ANALYZE_BTN = "Get started for free"

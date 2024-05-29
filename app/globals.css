@@ -44,3 +44,7 @@ body {
 .image-container:hover {
   transform: rotateX(var(--rotateX)) rotateY(var(--rotateY)) scale(var(--scale));
 }
+
+@media screen and (max-width: 767px) {
+ 
+}

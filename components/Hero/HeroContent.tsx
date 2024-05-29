@@ -15,12 +15,12 @@ const HeroContent = () => {
           <div className="flex sm:flex-row flex-col button-row button-row-hero">
             <input
               type="text"
-              className="bg-white font-normal px-4 py-5 border border-gray-300 rounded-lg mr-2"
+              className="bg-white font-normal px-4 py-5 border border-gray-300 rounded-lg sm:mr-2"
               placeholder="linktr.ee/yourname"
             />
             <CustomButton
               text={HERO_BTN}
-              className="mt-3 transform scale-100 hover:scale-95 bg-herobtn rounded-full text-lg hover:bg-primary transition-all duration-[350ms] ease-in-out border border-solid hover:border-transparent py-[24px] px-[44px] text-black"
+              className="mt-3 sm:mt-0 transform scale-100 hover:scale-95 bg-herobtn rounded-full text-lg hover:bg-primary transition-all duration-[350ms] ease-in-out border border-solid hover:border-transparent py-[24px] px-[44px] text-black"
             />
           </div>
         </div>

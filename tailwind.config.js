@@ -19,6 +19,7 @@ module.exports = {
         createbg: "#e9c0e9",
         createtext: "#502274",
         sharebg: "#780016",
+        analyzebg: "#f3f3f1",
       },
     },
   },
