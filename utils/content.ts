@@ -102,3 +102,12 @@ export const ANALYZE_TEXT = "Analyze your audience and keep your followers engag
 export const ANALYZE_DESC = "Track your engagement over time, monitor revenue and learn what’s converting your audience. Make informed updates on the fly to keep them coming back."
 export const ANALYZE_BTN = "Get started for free"
 export const SLIDER_TITLE = "The only link in bio trusted by 50M+ creators"
+
+//ANALYZE SECTION - SLIDER
+export const comedy = "/images/analyzeSection/comedy-central.png"
+export const funky = "/images/analyzeSection/funkynutmeg.png"
+export const hbo = "/images/analyzeSection/hbo.png"
+export const laclippers = "/images/analyzeSection/laclippers.png"
+export const pharrell = "/images/analyzeSection/pharrell.png"
+export const tonyhawk = "/images/analyzeSection/tonyhawk.png"
+export const selena = "/images/analyzeSection/selena-gomez.png"
