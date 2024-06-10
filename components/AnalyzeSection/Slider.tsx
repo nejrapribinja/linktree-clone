@@ -16,7 +16,7 @@ const Slider = () => {
       <p className="md:text-[56px] text-black tracking-[-0.02em] leading-tight text-[32px] pb-20 font-[820]">
         {SLIDER_TITLE}
       </p>
-      <div className="flex">
+      <div className="flex flex-col lg:flex-row">
         <Image src={comedy} alt="1" width={200} height={200} />
         <Image src={funky} alt="1" width={200} height={200} />
         <Image src={hbo} alt="1" width={200} height={200} />
